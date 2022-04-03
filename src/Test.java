@@ -4,7 +4,7 @@ public class Test {
 		int i = 1;
 		int c = 0;
 		int x = 0;
-		while(i <= 10) {
+		while(i <= 50) {
 			if(i % 2 == 0) {
 				System.out.println(i);
 				c++;
