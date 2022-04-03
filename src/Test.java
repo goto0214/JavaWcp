@@ -8,7 +8,7 @@ public class Test {
 			if(i % 2 == 0) {
 				System.out.println(i);
 				c++;
-				x = x + i;
+				x += i;
 			}
 			i++;
 		}
