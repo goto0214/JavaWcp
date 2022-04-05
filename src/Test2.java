@@ -7,7 +7,7 @@ public class Test2 {
 				s = s + String.valueOf(i);
 				break;
 			}
-			s = s + String.valueOf(i) + ",";
+			s +=String.valueOf(i) + ",";
 		}
 		System.out.println(s);
 		
