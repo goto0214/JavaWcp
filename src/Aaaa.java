@@ -1,7 +1,7 @@
 
 public class Aaaa {
 	public static void main(String[] args) {
-		int[] i = {2, 6, 10, 3, 17, 18, 4};
+		int[] i = {2, 6, 10, 3, 17, 18, 4, 48, 39, 199, 76};
 		int b = 0;
 		int c = 0;
 		for(int a = 0; a < i.length; a++) {
