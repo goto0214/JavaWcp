@@ -11,3 +11,4 @@ public class Divisor {
 		System.out.println(a);
 	}
 }
+//1234567890の約数の内、5000000以内の約数を足す
