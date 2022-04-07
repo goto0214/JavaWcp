@@ -14,3 +14,4 @@ public class Toribonacci {
 		System.out.println(c);
 	}
 }
+//トリボナッチ数列
