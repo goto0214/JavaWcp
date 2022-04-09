@@ -13,3 +13,4 @@ public class Reverse {
 		System.out.println(count);
 	}
 }
+//逆数の足し上げ
