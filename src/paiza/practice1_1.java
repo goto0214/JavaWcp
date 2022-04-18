@@ -26,5 +26,5 @@ public class practice1_1 {
             
         }
     }
-
+//嫌いな数字が含まれている数列をはじく
 
