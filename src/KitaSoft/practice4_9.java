@@ -7,7 +7,7 @@ public class practice4_9 {
 		Scanner sc = new Scanner(System.in);
 		int max = 0;
 		int min = 0;
-		for(int i = 0; i <= 10; i++) {
+		for(int i = 0; i < 10; i++) {
 			int n = sc.nextInt();
 			if (max == 0 && min == 0) {
 				max = n;
