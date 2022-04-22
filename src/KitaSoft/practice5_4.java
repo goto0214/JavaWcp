@@ -13,7 +13,7 @@ public class practice5_4 {
 		}
 		
 		for(int i = 0; i < count; i++) {
-			System.out.println("\n" + num[i]);
+			System.out.print("\n" + num[i]);
 		}
 	}
 }
