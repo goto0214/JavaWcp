@@ -3,7 +3,7 @@ package KitaSoft;
 public class practice6_8 {
 	public static void main( String[] args )
 	{
-	    for( int n = 11 ; n <= 20 ; n++ )
+	    for( int n = 0 ; n <= 20 ; n++ )
 	        System.out.print( Fibonacci( n ) + " " );
 	}
 
