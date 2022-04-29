@@ -18,7 +18,7 @@ class Dog1{
 }
 
 public class practice7_2 {
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		Dog1 MyDog = new Dog1();
 		
 		MyDog.SetName("ぽち");
