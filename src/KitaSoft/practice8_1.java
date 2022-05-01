@@ -16,13 +16,26 @@ class Cat extends Animal{
 	}
 }
 
+class Dog5 extends Animal
+{
+    public void Run()
+    {
+        System.out.println( "トコトコ" );
+    }
+}
+
 public class practice8_1 {
 	public static void main(String[] args) {
 		Cat MyCat = new Cat();
+		Dog5 MyDog = new Dog5();
 		
 		MyCat.Name = "たま";
 		MyCat.Age = 3;
+		MyDog.Name = "ぽち";
+		MyDog.Age = 4;
 		MyCat.ShowProfile();
-		MyCat.Sleep();
+        MyDog.ShowProfile();
+        MyCat.Sleep();
+        MyDog.Run();
 	}
 }
