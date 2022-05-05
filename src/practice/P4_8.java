@@ -8,6 +8,9 @@ public class P4_8 {
 		int num = 0;
 		for(int i = 0; i < 10; i++) {
 			int n = sc.nextInt();
+			if(i == 0) {
+				num = n;
+			}
 			if(num < n) {
 				num = n;
 			}
