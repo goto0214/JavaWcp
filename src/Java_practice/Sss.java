@@ -13,5 +13,6 @@ public class Sss {
 				num /= i;
 			}
 		}
+		sc.close();
 	}
 }

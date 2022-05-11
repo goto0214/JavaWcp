@@ -13,5 +13,6 @@ public class num {
 			}
 		}
 		System.out.println(s);
+		sc.close();
 	}
 }
