@@ -12,7 +12,7 @@ public class P5_4 {
 			num[count] = sc.nextInt();
 			sum += num[count];
 		}
-		
+		sc.close();
 		for(int i = 0; i < count; i++) {
 			 System.out.print( "\n" + num[i] );
 		}
