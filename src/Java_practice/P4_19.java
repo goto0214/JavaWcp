@@ -11,6 +11,7 @@ public class P4_19 {
 				System.out.print("$");
 			}
 			System.out.println();
+			sc.close();
 		}
 	}
 }
