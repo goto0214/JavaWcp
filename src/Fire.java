@@ -15,17 +15,19 @@ public class Fire {
 		int num = sc.nextInt();sc.nextLine();
 		String friend[] = new String[num];
 		int age[] = new int[num];
-		
+		int sum = 0;
 		
 		for(int i = 0; i < num; i++) {
 			System.out.println("友人の名前を入力してください。");
 			friend[i] = sc.nextLine(); 
 			System.out.println("年齢は？？");
 			age[i] = sc.nextInt();sc.nextLine();
+			sum += age[i];
 		}
 		sc.close();
 		for(int i = 0; i < num; i++) {
 			System.out.println(friend[i] + "さん " + age[i] + "歳");
+			System.out.println("友人の平均年齢は" + (sum / num) + "歳です。");
 		}
 	}
 }
