@@ -1,7 +1,6 @@
 /* Java入門
  * 作成日 2022年5月24日
  */
-
 package start;
 
 public class comment {
