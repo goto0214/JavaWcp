@@ -8,5 +8,8 @@ public class Zu2_2 {
 		double d = f;
 		System.out.println(f);
 		System.out.println(d);
+		
+		int age = (int)3.2;
+		System.out.println(age);
 	}
 }
