@@ -16,5 +16,10 @@ public class Zu2_2 {
 		long l = 5 + 2L;
 		System.out.println(d);
 		System.out.println(l);
+		
+		int a = 5;
+		int b = 3;
+		int m = Math.max(a, b);//用いた引数の大きい方を入れる。
+		System.out.println(m);
 	}
 }
