@@ -1,5 +1,6 @@
 package start;
 
+
 public class Zu2_2 {
 	public static void main(String[] args) {
 		System.out.println("私の好きな記号は二重引用符(\")です。");
@@ -21,5 +22,8 @@ public class Zu2_2 {
 		int b = 3;
 		int m = Math.max(a, b);//用いた引数の大きい方を入れる。
 		System.out.println(m);
+		
+		int r = new java.util.Random().nextInt(60);//60までの数字がランダムに入れられる。
+		System.out.println(r);
 	}
 }
