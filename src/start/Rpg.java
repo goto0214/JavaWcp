@@ -36,8 +36,11 @@ public class Rpg {
 		System.out.println("スライムが現れた！");
 		if(spd > slime[3]) {
 			se = name;
+		}else {
+			se = "スライム";
 		}
 		System.out.println("先攻は" + se);
+		
 	}
 	
 }
