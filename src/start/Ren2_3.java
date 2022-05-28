@@ -13,7 +13,7 @@ public class Ren2_3 {
 		String name = sc.nextLine();
 		System.out.println("あなたの年齢を入力してください。");
 		String ageString = sc.nextLine();
-		int age = Integer.parseInt(ageString);
+		int age = Integer.parseInt(ageString);//変換
 		int fortune = ran.nextInt(4);
 		fortune++;
 		sc.close();
