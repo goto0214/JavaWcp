@@ -40,7 +40,8 @@ public class Rpg {
 			se = "スライム";
 		}
 		System.out.println("先攻は" + se);
-		
+		System.out.println("早速攻撃してみましょう！");
+		System.out.println("貴方の行動！１．攻撃　２．防御　３．逃げる");
 	}
 	
 }
