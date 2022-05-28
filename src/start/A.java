@@ -1,5 +1,7 @@
 package start;
-
+/*
+ * 覚えるもの
+ */
 public class A {
 	public static void main(String[] args) {
 		String a = "10";
@@ -8,5 +10,14 @@ public class A {
 		if(a.equals(a)) {//文字列の比較
 			System.out.println(A);
 		}
+		
+		switch(a) {
+		case "10":
+		    System.out.println(A);
+		    break;
+		case "20":
+			break;
+		}
+		
 	}
 }
