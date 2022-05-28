@@ -7,7 +7,7 @@ public class A {
 		String a = "10";
 		final int A = Integer.parseInt(a);//変換
 		
-		if(a.equals(a)) {//文字列の比較
+		if(a.equals("10")) {//文字列の比較
 			System.out.println(A);
 		}
 		
