@@ -7,6 +7,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("貴方の名前は？");
 		String yourName = sc.nextLine();
+		System.out.println(yourName + "さんですね！");
 		int[] yourStatus = new int[5];
 		String[] status = {"HP", "ATK", "DEF", "SPD", "LUK"};
 		System.out.println("貴方のステータスを決めます。リセマラできます。");
@@ -44,5 +45,6 @@ public class Main {
 				break;
 			}
 		}
+		sc.close();
 	}
 }

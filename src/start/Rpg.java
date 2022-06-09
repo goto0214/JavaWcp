@@ -22,7 +22,7 @@ public class Rpg {
 		System.out.println("DEF: " + def);
 		System.out.println("SPD: " + spd );
 		System.out.println("次のレベルまで" + pool);
-		
+		sc.close();
 		
 		System.out.println("早速モンスターを倒してみましょう");
 		

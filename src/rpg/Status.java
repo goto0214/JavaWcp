@@ -9,7 +9,7 @@ public class Status {
 		status[1] = ran.nextInt(10) + 10;//Attak
 		status[2] = ran.nextInt(5) + 5; //DEF
 		status[3] = ran.nextInt(5) + 3; //SPD
-		status[4] = ran.nextInt(3) + 1;
+		status[4] = ran.nextInt(3) + 1;//LUK
 	}
 	
 	
@@ -19,6 +19,6 @@ public class Status {
 		status[1] = ran.nextInt(10) + 10;//Attak
 		status[2] = ran.nextInt(5) + 5; //DEF
 		status[3] = ran.nextInt(5) + 3; //SPD
-		status[4] = ran.nextInt(3) + 1;
+		status[4] = ran.nextInt(3) + 1;//LUK
 	}
 }
