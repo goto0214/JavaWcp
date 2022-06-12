@@ -45,6 +45,7 @@ public class Main {
 				break;
 			}
 		}
+		System.out.println("ステータスを決定しました");
 		sc.close();
 	}
 }
