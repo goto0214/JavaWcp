@@ -46,6 +46,7 @@ public class Main {
 			}
 		}
 		System.out.println("ステータスを決定しました");
+		System.out.println("早速モンスターを倒しに行きましょう");
 		sc.close();
 	}
 }
