@@ -12,6 +12,12 @@ public class Main {
 		h.sword = s;
 		System.out.println("現在の武器は" + h.sword.name);
 		
+		Wizard w = new Wizard();
+		w.name = "菅原";
+		w.hp = 50;
+		
+		w.heal(h);
+		
 		Matango m1 = new Matango();
 		m1.hp = 50;
 		m1.suffix = 'A';
