@@ -6,8 +6,9 @@ public class Hero {
 	Sword sword;
 	
 	
-	public Hero() {
+	public Hero(String name) {
 		this.hp = 100;
+		this.name = name;
 	}
 	
 	public void attack() {

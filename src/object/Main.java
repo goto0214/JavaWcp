@@ -5,9 +5,8 @@ public class Main {
 		Sword s = new Sword();
 		s.name = "炎の剣";
 		s.damage = 10;
-		Hero h = new Hero();
-		
-		h.name = "ミナト";
+		Hero h = new Hero("ミナト");
+		System.out.println(h.name);
 		h.sword = s;
 		System.out.println("現在の武器は" + h.sword.name);
 		
