@@ -8,7 +8,6 @@ public class Main {
 		Hero h = new Hero();
 		
 		h.name = "ミナト";
-		h.hp = 100;
 		h.sword = s;
 		System.out.println("現在の武器は" + h.sword.name);
 		
@@ -16,6 +15,7 @@ public class Main {
 		w.name = "菅原";
 		w.hp = 50;
 		
+		w.heal(h);
 		w.heal(h);
 		
 		Matango m1 = new Matango();
@@ -29,7 +29,7 @@ public class Main {
 		
 		h.slip();
 		m1.run();
-		m2.run();
+		m2.bomb();
 		h.run();
 	}
 }
