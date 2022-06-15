@@ -28,5 +28,7 @@ public class Main {
 		SuperHero sh = new SuperHero(h.name);
 		System.out.println(sh.name);
 		System.out.println(sh.hp);
+		h.run();
+		sh.run();
 	}
 }
