@@ -25,10 +25,8 @@ public class Main {
 		m2.hp = 48;
 		m2.suffix = 'B';
 		
-		
-		h.slip();
-		m1.run();
-		m2.bomb();
-		h.run();
+		SuperHero sh = new SuperHero(h.name);
+		System.out.println(sh.name);
+		System.out.println(sh.hp);
 	}
 }
