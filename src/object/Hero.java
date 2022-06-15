@@ -11,6 +11,10 @@ public class Hero {
 		this.name = name;
 	}
 	
+	public Hero() {
+		this("ダミー");
+	}
+	
 	public void attack() {
 		System.out.println(this.name + "は攻撃した");
 		System.out.println("敵に5ポイントのダメージを与えた！");
