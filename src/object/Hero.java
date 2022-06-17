@@ -15,9 +15,10 @@ public class Hero {
 		this("ダミー");
 	}
 	
-	public void attack() {
+	public void attack(Matango m) {
 		System.out.println(this.name + "は攻撃した");
-		System.out.println("敵に5ポイントのダメージを与えた！");
+		m.hp -= 5;
+		System.out.println(m.name + m.suffix + "に5ポイントのダメージを与えた！");
 	}
 	
 	public void sleep() {
@@ -31,7 +32,7 @@ public class Hero {
 		System.out.println("HPが" + sec + "ポイント回復した！");
 	}
 	
-	public void slip() {
+	public final void slip() {
 		this.hp -= 5;
 		System.out.println(this.name + "は、転んだ！");
 		System.out.println("5のダメージ！");

@@ -18,11 +18,9 @@ public final class Main {
 		w.heal(h);
 		
 		Matango m1 = new Matango();
-		m1.hp = 50;
 		m1.suffix = 'A';
 		
 		Matango m2 = new Matango();
-		m2.hp = 48;
 		m2.suffix = 'B';
 		
 		SuperHero sh = new SuperHero(h.name);
@@ -30,5 +28,7 @@ public final class Main {
 		System.out.println(sh.hp);
 		h.run();
 		sh.run();
+		sh.attack(m2);
+		System.out.println(m2.hp);
 	}
 }
