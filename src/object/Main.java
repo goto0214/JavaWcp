@@ -1,6 +1,6 @@
 package object;
 
-public class Main {
+public final class Main {
 	public static void main(String[] args) {
 		Sword s = new Sword();
 		s.name = "炎の剣";
