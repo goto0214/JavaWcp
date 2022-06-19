@@ -26,5 +26,8 @@ public final class Main {
 		SuperHero sh = new SuperHero();
 		System.out.println(sh.name);
 		System.out.println(sh.hp);
+		
+		Weapon we = new Weapon();
+		System.out.println(we.name + we.price);
 	}
 }
