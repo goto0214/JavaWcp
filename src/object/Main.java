@@ -23,12 +23,8 @@ public final class Main {
 		Matango m2 = new Matango();
 		m2.suffix = 'B';
 		
-		SuperHero sh = new SuperHero(h.name);
+		SuperHero sh = new SuperHero();
 		System.out.println(sh.name);
 		System.out.println(sh.hp);
-		h.run();
-		sh.run();
-		sh.attack(m2);
-		System.out.println(m2.hp);
 	}
 }

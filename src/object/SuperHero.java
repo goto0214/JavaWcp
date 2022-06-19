@@ -6,6 +6,10 @@ public class SuperHero extends Hero {
 		this.name = name;
 		this.hp = 125;
 	}
+	
+	public SuperHero() {
+		System.out.println("SuperHeroのコンストラクタが動作");
+	}
 	public void fly() {
 		this.flying = true;
 		System.out.println("飛び上がった");
