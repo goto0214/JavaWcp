@@ -4,7 +4,7 @@ public class Hero {
 	String name;
 	int hp;
 	Sword sword;
-	
+	int attack;
 	
 	public Hero(String name) {
 		this.hp = 100;

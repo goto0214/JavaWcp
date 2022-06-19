@@ -5,6 +5,7 @@ public class SuperHero extends Hero {
 	public SuperHero(String name) {
 		this.name = name;
 		this.hp = 125;
+		this.attack = 15;
 	}
 	
 	public SuperHero() {

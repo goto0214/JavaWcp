@@ -4,7 +4,6 @@ public final class Main {
 	public static void main(String[] args) {
 		Sword s = new Sword();
 		s.name = "炎の剣";
-		s.damage = 10;
 		Hero h = new Hero("ミナト");
 		System.out.println(h.name);
 		h.sword = s;
@@ -23,11 +22,14 @@ public final class Main {
 		Matango m2 = new Matango();
 		m2.suffix = 'B';
 		
-		SuperHero sh = new SuperHero();
+		SuperHero sh = new SuperHero(h.name);
 		System.out.println(sh.name);
-		System.out.println(sh.hp);
+		System.out.println(sh.attack);
 		
-		Weapon we = new Weapon();
-		System.out.println(we.name + we.price);
+		FireSword f = new FireSword();
+		f.wear(sh);
+		System.out.println(sh.attack);
+		f.remove(sh);
+		System.out.println(sh.attack);
 	}
 }

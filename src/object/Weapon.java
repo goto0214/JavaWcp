@@ -1,7 +1,8 @@
 package object;
 
-public class Weapon extends Item {
-	public Weapon() {
-		super("名無しの剣", 89);
-	}
+public class Weapon{
+	String name;
+	int attack;
+	String element;
+	
 }
