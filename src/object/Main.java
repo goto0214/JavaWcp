@@ -16,11 +16,7 @@ public final class Main {
 		w.heal(h);
 		w.heal(h);
 		
-		Matango m1 = new Matango();
-		m1.suffix = 'A';
 		
-		Matango m2 = new Matango();
-		m2.suffix = 'B';
 		
 		SuperHero sh = new SuperHero(h.name);
 		System.out.println(sh.name);
@@ -31,5 +27,11 @@ public final class Main {
 		System.out.println(sh.attack);
 		f.remove(sh);
 		System.out.println(sh.attack);
+		
+		
+		PoisonMatango pm = new PoisonMatango('A');
+		System.out.println(sh.hp);
+		pm.attack(sh);
+		System.out.println(sh.hp);
 	}
 }
