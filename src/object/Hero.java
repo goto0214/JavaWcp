@@ -1,6 +1,6 @@
 package object;
 
-public class Hero {
+public class Hero extends Character{
 	String name;
 	int hp;
 	Sword sword;
